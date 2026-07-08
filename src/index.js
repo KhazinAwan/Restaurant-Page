@@ -1,6 +1,8 @@
 import "./style.css"
-import home from "./components/home/home.js"
+// import home from "./components/home/home.js"
 
-home();
+// home();
 
+import menu from "./components/menu/menu.js"
+menu();
 console.log("I luv unohana so much");

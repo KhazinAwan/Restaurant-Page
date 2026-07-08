@@ -129,3 +129,64 @@ nav button {
     color: var(--accent-color);
 
 }
+
+#content .productContainer {
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 1rem;
+
+    margin-top: 1rem;
+
+}
+
+#content .productCard {
+
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 1rem 1.5rem;
+
+    background-color: var(--background-color);
+
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+
+}
+
+.productInfo {
+
+    text-align: left;
+
+}
+
+.productInfo h4 {
+
+    margin-bottom: 0.4rem;
+
+    color: var(--accent-color);
+
+    font-size: 1.25rem;
+
+}
+
+.productInfo p {
+
+    margin: 0;
+
+    font-size: 1rem;
+
+}
+
+.price {
+
+    font-size: 1.2rem;
+
+    font-weight: bold;
+
+    color: var(--primary-color);
+
+}
