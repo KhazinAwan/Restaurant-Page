@@ -3,6 +3,9 @@ import "./style.css"
 
 // home();
 
-import menu from "./components/menu/menu.js"
-menu();
+// import menu from "./components/menu/menu.js"
+// menu();
+
+import contact from "./components/contact/contact.js"
+contact();
 console.log("I luv unohana so much");
